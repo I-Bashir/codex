@@ -627,6 +627,15 @@ class _ActiveLake {
         palette: [Color(0xFFFFC98B), Color(0xFFFF914D)],
         avatars: ['JB', 'LS', 'TW', '+12'],
       ),
+      _ActiveLake(
+        title: 'Evening Wind-down Stretch',
+        category: 'Balance',
+        progress: 0.42,
+        members: 64,
+        daysRemaining: 16,
+        palette: [Color(0xFFB3E5FC), Color(0xFF2196F3)],
+        avatars: ['NP', 'HS', 'AE', '+3'],
+      ),
     ];
   }
 }
@@ -810,6 +819,13 @@ class _HighlightLake {
         iconColor: Color(0xFFFF9F1C),
         gradient: [Color(0xFFA1FFCE), Color(0xFFFAFFD1)],
       ),
+      _HighlightLake(
+        title: 'Creator spotlight: The Blue Crew',
+        description: 'Hosted a weekend cleanup and raised funds for clean water access.',
+        icon: Icons.public_rounded,
+        iconColor: Color(0xFF4D96FF),
+        gradient: [Color(0xFFD9E4FF), Color(0xFFB1C7FF)],
+      ),
     ];
   }
 }
@@ -931,6 +947,18 @@ class _LatestLake {
         creator: '@river',
         members: 67,
         goal: 'Cook 4 recipes together',
+      ),
+      _LatestLake(
+        title: 'Mindful Evenings',
+        creator: '@sofi',
+        members: 73,
+        goal: '15 minutes of journaling',
+      ),
+      _LatestLake(
+        title: 'Voda Creators Lab',
+        creator: '@voda-team',
+        members: 240,
+        goal: 'Prototype new lake ideas',
       ),
     ];
   }
