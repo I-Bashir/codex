@@ -1,6 +1,6 @@
-# Voda Profile Login
+# Voda Home Experience
 
-This repository contains a Flutter implementation of the Voda login screen based on the provided design reference.
+This repository contains a Flutter implementation of the Voda home screen based on the provided design reference.
 
 ## Getting Started
 
@@ -14,4 +14,4 @@ This repository contains a Flutter implementation of the Voda login screen based
    flutter run
    ```
 
-The main implementation lives in [`lib/main.dart`](lib/main.dart).
+The primary implementation lives in [`lib/main.dart`](lib/main.dart).
