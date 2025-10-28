@@ -1,0 +1,48 @@
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+*.lock
+.idea/
+.vscode/
+.melos_tool/
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+# iOS related
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Runner.xcworkspace/
+
+# macOS
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral/
+
+# Windows
+**/windows/flutter/ephemeral/
+
+# Web
+**/web/generated_plugin_registrant.dart
+
+# Linux
+**/linux/flutter/ephemeral/
+
+# Coverage
+coverage/
